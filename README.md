@@ -2,7 +2,7 @@
 
 A full-stack to-do app on the MERN stack. Users sign up, sign in and keep their own task list with due dates and completion status. Built in September 2023.
 
-**Live frontend:** https://todo-mern-alpha.vercel.app. The Express API was hosted separately and may be offline, so sign-in can fail on the live site.
+**Live site:** https://todo.julianzaw.me. The frontend and the Express API both run on Vercel. Sign-in needs the MongoDB database, which is offline right now.
 
 ![Todoer landing page](.github/assets/screenshot.png)
 
@@ -35,7 +35,7 @@ Complete for its scope.
 
 - **Frontend:** React, React Router, Vite, Tailwind CSS and MUI date pickers
 - **Backend:** Express, Mongoose and MongoDB, with JWT auth
-- **Hosting:** Netlify and Vercel for the frontend, Render for the API
+- **Hosting:** Vercel, with the API in `api/server.js` running as a serverless function
 
 ## Run it locally
 
